@@ -1,0 +1,17 @@
+{
+    "name": "virginiasegarra/blog-php",
+    "description": "Demo blog PHP",
+    "autoload": {
+        "psr-4": {
+            "Router\\": "routes/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aurelia Segarra",
+            "email": "av.segarra@gmail.com"
+        }
+    ],
+    "require": {}
+}
