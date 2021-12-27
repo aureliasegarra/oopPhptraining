@@ -2,15 +2,15 @@
 
 namespace App\Controllers;
 
-class BlogController {
+class BlogController extends Controller{
     public function index()
     {
-        echo "Je suis la HomePage";
+        return $this->view('blog.index');
     }
 
     public function show(int $id) 
     {
-        echo "Je suis le poste" . $id;
+        return $this->view('blog.show', compact('id'));
     }
 
 
